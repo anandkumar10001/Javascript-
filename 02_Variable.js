@@ -9,7 +9,7 @@ x = 30;      // Update allowed
 console.log(x); // 30
 
 //Let
-//Bkock-scoped
+//Block-scoped
 //Redeclaration not allowed
 //Reassignment
 //Hoisting (but TDZ*)
