@@ -1,4 +1,7 @@
 //Var
+//Function-scoped (visible inside the function where declared).
+//Can be redeclared and updated.
+//Hoisted (moved to the top of scope, but initialized as undefined).
 var x = 10;
 var x = 20;  // Redeclaration allowed
 x = 30;      // Update allowed
