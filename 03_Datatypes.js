@@ -1,4 +1,4 @@
-//Primitive
+//Primitive:
 //String
 let name = "Abhishek";
 let greeting = 'Hello World';
@@ -28,3 +28,20 @@ let data = null;
 let id = Symbol("id");
 let anotherId = Symbol("id");
 console.log(id === anotherId); // false (unique)
+
+
+Non-Primitive:
+Object
+let person = {
+  name: "Abhishek",
+  age: 22,
+  isStudent: true
+};
+
+Array
+let numbers = [10, 20, 30, 40];
+
+Function
+function greet() {
+  return "Hello!";
+}
