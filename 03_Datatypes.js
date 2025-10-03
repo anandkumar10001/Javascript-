@@ -30,18 +30,18 @@ let anotherId = Symbol("id");
 console.log(id === anotherId); // false (unique)
 
 
-Non-Primitive:
-Object
+//Non-Primitive:
+//Object
 let person = {
   name: "Abhishek",
   age: 22,
   isStudent: true
 };
 
-Array
+//Array
 let numbers = [10, 20, 30, 40];
 
-Function
+//Function
 function greet() {
   return "Hello!";
 }
