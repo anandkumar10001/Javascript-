@@ -13,23 +13,27 @@ let notANumber = NaN;
 console.log(typeof age); // "number"
 
 //BigInt
-let bigNumber = 123456789012345678901234567890n;
+let big = 123456789012345678901234567890n;
+console.log(typeof big);   // "bigint"
 
 //Boolean
 let isStudent = true;
 let isLoggedIn = false;
+console.log(typeof isStudent);  // "boolean"
 
 //Undefined
-let x;
-console.log(x);  // undefined
+let a;
+console.log(typeof a);   // "undefined"
 
 //Null
 let data = null;
+console.log(typeof data);   // "object"  (this is a known JavaScript bug)
 
 //Symbol
 let id = Symbol("id");
 let anotherId = Symbol("id");
 console.log(id === anotherId); // false (unique)
+console.log(typeof id);   // "symbol"
 
 
 //Non-Primitive:
@@ -39,11 +43,14 @@ let person = {
   age: 22,
   isStudent: true
 };
+console.log(typeof person);   // "object"
 
 //Array
-let numbers = [10, 20, 30, 40];
+let arr = [1, 2, 3];
+console.log(typeof arr);   // "object" (arrays are objects in JS)
 
 //Function
 function greet() {
   return "Hello!";
 }
+console.log(typeof greet);   // "function"
